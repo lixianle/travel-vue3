@@ -27,3 +27,10 @@ export function getWeekendList() {
     url: "/mock/weekend.json",
   });
 }
+
+export function getDetailData() {
+  return request({
+    method: "get",
+    url: "/mock/detail.json",
+  });
+}

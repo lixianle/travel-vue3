@@ -25,12 +25,12 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../../../assets/styles/varibles.styl'
-  @import '../../../assets/styles/mixins.styl'
+@import '../../../assets/styles/mixins.styl'
 .header
   display: flex
   line-height: .86rem
   background: $bgcolorA
-  color: $colorA
+  color: $colorB
   .header-left
     width: .64rem
     float: left
