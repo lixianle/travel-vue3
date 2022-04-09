@@ -1,11 +1,23 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import HelloWorld from "../common/HelloWorld.vue";
+import Home from "../views/home/Home.vue";
+import City from "../views/city/City.vue";
+import Detail from "../views/detail/Detail.vue";
 
 const routes = [
   {
     path: "/",
-    name: "HelloWorld",
-    component: HelloWorld,
+    name: "Home",
+    component: Home,
+  },
+  {
+    path: "/city",
+    name: "City",
+    component: City,
+  },
+  {
+    path: "/detail/:id",
+    name: "Detail",
+    component: Detail,
   },
   // 按需加载
   // {
