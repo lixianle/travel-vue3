@@ -34,3 +34,17 @@ export function getDetailData() {
     url: "/mock/detail.json",
   });
 }
+
+export function getCities() {
+  return request({
+    method: "get",
+    url: "/mock/cities.json",
+  });
+}
+
+export function getHotCities() {
+  return request({
+    method: "get",
+    url: "/mock/hotcities.json",
+  });
+}

@@ -9,8 +9,7 @@
     </div>
     <router-link to="/city">
       <div class="header-right">
-        <!-- {{ this.city }} -->
-        北京
+        {{ this.city }}
         <span class="iconfont arrow-icon">&#xe688;</span>
       </div>
     </router-link>
@@ -18,8 +17,18 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from "vuex";
 export default {
   name: "HomeHeader",
+  computed: {
+    ...mapState(["city"]),
+  },
+  mounted() {
+    this.changeCity(sessionStorage.getItem("city"));
+  },
+  methods: {
+    ...mapMutations(["changeCity"]),
+  },
 };
 </script>
 
