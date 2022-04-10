@@ -91,6 +91,7 @@ export default {
     },
     handleCityClick(city) {
       this.changeCity(city);
+      sessionStorage.setItem("city", city);
       this.$router.push("/");
     },
     ...mapMutations(["changeCity"]),

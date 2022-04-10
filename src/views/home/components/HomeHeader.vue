@@ -24,7 +24,10 @@ export default {
     ...mapState(["city"]),
   },
   mounted() {
-    this.changeCity(sessionStorage.getItem("city"));
+    const storageCity = sessionStorage.getItem("city");
+    if (storageCity) {
+      this.$store.commit("changeCity", storageCity);
+    }
   },
   methods: {
     ...mapMutations(["changeCity"]),
