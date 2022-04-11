@@ -1,7 +1,7 @@
 <template>
   <div class="icons">
     <swiper
-      :initialSlide="1"
+      :initialSlide="0"
       :slides-per-view="1"
       :space-between="0"
       :loop="true"

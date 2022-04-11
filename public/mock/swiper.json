@@ -2,11 +2,11 @@
   "status": 0,
   "data": {
     "list": [
-        "/imgs/swiper/swiper-1.jpg",
-        "/imgs/swiper/swiper-2.jpg",
-        "/imgs/swiper/swiper-3.jpg",
-        "/imgs/swiper/swiper-4.jpg",
-        "/imgs/swiper/swiper-5.jpg"
+        "imgs/swiper/swiper-1.jpg",
+        "imgs/swiper/swiper-2.jpg",
+        "imgs/swiper/swiper-3.jpg",
+        "imgs/swiper/swiper-4.jpg",
+        "imgs/swiper/swiper-5.jpg"
     ]
   }
 }

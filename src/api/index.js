@@ -3,7 +3,7 @@ import { request } from "./axios";
 export function getSwiperList() {
   return request({
     method: "get",
-    url: "/mock/swiper.json",
+    url: "mock/swiper.json",
   });
 }
 
